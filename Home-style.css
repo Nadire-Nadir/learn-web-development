@@ -1117,27 +1117,6 @@ a:visited {
   background-color: #222831;
 }
 
-#footer_image {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-  margin: 0 auto;
-}
-
-.footer_picture {
-  flex: 1;
-}
-
-.picture-container-image {
-  height: 330px;
-
-  margin: 0;
-  padding: 0;
-  flex: 1;
-}
-
 #footer-column {
   max-width: 1110px;
   height: 400px;
