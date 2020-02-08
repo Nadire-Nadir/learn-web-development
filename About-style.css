@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#whole-container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.sm_title {
+  font-size: 18px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.bg_title {
+  font-size: 2.5em;
+}
+
+.fixed_width {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+#top-container {
+  position: relative;
+  width: 100%;
+  height: 960px;
+  background-image: url("./images/bg_1.jpg");
+}
+
+#navbar-container {
+  height: 78px;
+  max-width: 1110px;
+  background-color: white;
+  padding-top: 20px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+
+#eventalk-logo {
+  padding-top: 13px;
+  font-style: normal;
+  font-size: 1.2em;
+  color: black;
+  flex: 4;
+}
+
+#eventalk-logo a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#eventalk-logo a:hover {
+  color: rgb(185, 175, 175);
+}
+
+#logo-talk {
+  font-weight: 800;
+}
+
+#topmenu {
+  padding-top: 15px;
+  flex: 8;
+}
+
+#topmenu li {
+  list-style: none;
+  font-size: 0.9em;
+  height: 100%;
+  letter-spacing: 0.7px;
+}
+
+#topmenu li :hover {
+  color: black;
+}
+
+#topmenu_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#topmenu a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#buyButton {
+  margin-top: -10px;
+}
+
+#buyButton button {
+  color: white;
+  background-color: rgb(111, 111, 247);
+  width: 115px;
+  height: 40px;
+  font-size: 1.03em;
+  border-radius: 3px;
+  border: none;
+}
+
+#buyButton button:focus {
+  outline: none;
+}
+
+.big_heading {
+  width: 350px;
+  height: 200px;
+  margin-top: 550px;
+}
+
+#head_line {
+  color: #6b75ff;
+  font-size: 4em;
+  letter-spacing: 6px;
+}
+
+#aboutus_subt a {
+  float: left;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 1.15em;
+}
+
+#aboutus_subt a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+#sub_title_us {
+  float: left;
+  font-size: 1.15em;
+  margin-left: 12px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#text_container {
+  width: 100%;
+  height: 300px;
+  background-color: #f8f9fa !important;
+}
+
+#text_container_content {
+  float: right;
+  width: 650px;
+  height: 100px;
+  margin-top: 100px;
+  font-family: inherit;
+}
+
+#text_container_content h2 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#funfact_container {
+  height: 900px;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+
+#funfact_part1 {
+  flex: 1;
+  height: 800px;
+  background-image: url(./images/about.jpg);
+}
+
+#funfact_part2 {
+  flex: 1;
+  height: 700px;
+  margin: 55px 0 0 70px;
+}
+
+#funfact_title {
+  letter-spacing: 0.8px;
+}
+
+#funfact_subtitle {
+  color: #999999;
+  line-height: 1.8;
+}
+
+.funfact_box_bg {
+  width: 100%;
+  height: 220px;
+  float: left;
+  margin-top: 25px;
+}
+
+.funfact_box_sm {
+  float: left;
+  width: 47%;
+  height: 220px;
+  background-color: #f8f9fa !important;
+}
+
+.funfact_box_sm_2ed {
+  float: right;
+}
+
+.funfact_box_content {
+  float: left;
+  width: 50%;
+  height: 170px;
+  margin: 35px 0 0 60px;
+  text-align: center;
+}
+
+.funfact_number {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.funfact_fact {
+  font-size: 0.9em;
+  color: #999999;
+  margin-top: -10px;
+  letter-spacing: 1px;
+}
+
+#testimonial_container {
+  width: 100%;
+  height: 600px;
+}
+
+#testimonial_container_title {
+  text-align: center;
+}
+
+#testimonial_content {
+  max-width: 1110px;
+  height: 350px;
+  margin-top: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+
+.testimonial_box {
+  flex: 1;
+  height: 350px;
+  margin: 0 1.5px 0 1.5px;
+}
+
+.testimonial_box_content {
+  width: 95%;
+  height: 350px;
+  letter-spacing: 0.5px;
+}
+
+.testimonial_pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.testimonial_icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 80px 0 0 -40px;
+}
+
+.testimonial_discpt {
+  color: #999999;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
+
+.testimonial_name {
+  font-size: 1em;
+  color: black;
+  margin: 20px 0 5px 0;
+}
+
+.testimonial_job {
+  font-size: 1em;
+  color: #999999;
+}
+
+#footer-container {
+  width: 100%;
+  height: 750px;
+  background-color: #222831;
+}
+
+#footer-column {
+  max-width: 1110px;
+  height: 400px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  margin: 0 auto;
+}
+
+.footer-card {
+  flex: 1;
+  height: 200px;
+  margin-top: 220px;
+}
+
+.footer-card-content {
+  margin: -110px 30px 0 0;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  color: gray;
+}
+
+.footer-card-content a {
+  color: gray;
+}
+
+.footer-card-content a:link {
+  text-decoration: none;
+}
+
+.footer-card-content a:hover {
+  color: gray;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.Q-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.footer-text {
+  color: rgb(241, 234, 234);
+}
+
+#footer-2 {
+  padding-left: 40px;
+}
+
+#social-media {
+}
+
+.mediaicon {
+  height: 25px;
+  width: 25px;
+  margin: 12.5px;
+}
+
+.icon-shapen {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-right: 15px;
+}
+
+#copyright {
+  float: left;
+  text-align: center;
+  color: rgb(206, 197, 197);
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  padding-top: 250px;
+}
